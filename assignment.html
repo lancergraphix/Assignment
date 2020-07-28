@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <!-- Do not link this style sheet
+      <link rel ="stylesheet" href="assignment.css">
+      -->
+
+      <link rel="stylesheet" href="assign.css">
+
+      <style>
+          label{
+              font-weight: bold;
+              color: white;
+          }
+          input[type=text], select, textarea {
+              width: 100%;
+              padding: 10px;
+              border-radius: 5px;
+              border: 1px solid #ccc;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+          }
+
+          input[type=submit]{
+              background-color:rgb(97, 0, 100);
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              
+
+          }
+
+          input[type=submit]:hover {
+              background-color: rgb(187, 112, 0);
+                        }
+          
+          .container {
+              border-radius: 40px 0px 40px 0px;
+              background-color: rgb(170, 54, 0);
+              padding: 20px;
+              width: 50%;
+              max-width: 500px;
+              margin: auto;
+              
+  
+           }
+             
+          
+        
+          form {
+              width: 100%;
+          }
+
+       
+
+          
+      </style>
+
+    </head>
+    <body>
+        <div style="background-color: black; align-content: center;">
+            <h1 style="color:white; text-align: center; font-family: sans-serif; background-color: black;">
+                LET US HEAR FROM YOU!
+            </h1>
+        </div>
+            
+        <div style="filter: blur(0px); " class="background-image">
+            <div class ="container">
+            <form style="align-content: center;">
+                <label>FIRST NAME</label><br>
+                <input placeholder ="Your First Name.." type="text" id="fname"><br>
+                <label>LAST NAME</label><br>
+                <input placeholder ="Your Last Name.." type="text" id="lname"><br>
+                <label for ="Country">COUNTRY</label>
+                <select id ="country" name="country">
+                    <option value="Ghana">Ghana</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Ivory Coast">Ivory Coast</option>
+                <label for="subject">TYPE YOUR MESSAGE</label>
+                <textarea id="subject" name="subject" placeholder="Type your message" style="height: 200px;"></textarea>
+
+                </select>
+                <input type="submit" value="Submit">
+            </form>
+
+            </div>
+         </div>
+    </body>
+</html>
